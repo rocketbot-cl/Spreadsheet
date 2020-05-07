@@ -25,8 +25,6 @@ Google cloud platform console
 
 ![alt text](https://raw.githubusercontent.com/rocketbot-cl/Spreadsheet/master/example/spreadsheet.png)
 
-<h2>Link to API Documentation</h2>
-
 
 <h2>License</h2>
 
