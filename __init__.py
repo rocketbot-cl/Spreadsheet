@@ -38,12 +38,7 @@ from collections import namedtuple
 module = GetParams("module")
 
 global gc
-
-open_option = {
-    "title": gc.open,
-    "key": gc.open_by_key,
-    "url": gc.open_by_url
-}
+global open_option
 
 if module == "config":
     credential_path = GetParams("credentials_path")
@@ -56,6 +51,11 @@ if module == "config":
 
         gc = gspread.service_account(credential_path)
 
+        open_option = {
+            "title": gc.open,
+            "key": gc.open_by_key,
+            "url": gc.open_by_url
+        }
     except Exception as e:
         PrintException()
         raise e
