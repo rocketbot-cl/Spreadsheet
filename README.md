@@ -1,35 +1,53 @@
-# Spreadsheet
-Module to work with Google spreadsheets.
+# GSpreadsheet
+  
+Module to manage Google Spreadsheet from Rocketbot.  
 
-*Note: Use only if [Google-Spreadsheet](https://market.rocketbot.co/?11#/module/Google-SpreadSheets) module fails*
+*Read this in other languages: [English](README.md), [Español](README.es.md).*
 
-## Commands
-
-<ul>
-    <li>Setup credentials</li>
-    <li>Create Sheet</li>
-    <li>Delete Sheet</li>
-    <li>Set cells</li>
-    <li>Read cells</li>
-    <li>Get sheets</li>
-    <li>Count Cells</li>
-</ul>
+## How to install this module
+  
+__Download__ and __install__ the content in 'modules' folder in Rocketbot path  
 
 
-For get a credential file go to <a href="https://console.developers.google.com/cloud-resource-manager">
-Google cloud platform console
-</a>
+
+## Overview
 
 
-![alt text](https://raw.githubusercontent.com/rocketbot-cl/Spreadsheet/master/example/console.png)
+1. Setup credentials  
+Get permissions to handle Google Spreadsheet with Rocketbot
 
-![alt text](https://raw.githubusercontent.com/rocketbot-cl/Spreadsheet/master/example/spreadsheet.png)
+2. Create Sheet  
+Create a new sheet in Spreadsheet selected
+
+3. Delete Sheet  
+Delete a sheet from Spreadsheet selected
+
+4. Set cells  
+Set a cell or range of cells from Spreadsheet selected
+
+5. Read cells  
+Read a cell or range of cells from Spreadsheet selected, eg. A1 or A1:B5
+
+6. Get sheets  
+Get list of sheets with your id from a Spreadsheet selected
+
+7. Count Cells  
+Count rows and columns on a sheet  
 
 
-<h2>License</h2>
 
-<p><a href="http://badges.mit-license.org" rel="nofollow"><img src="https://camo.githubusercontent.com/107590fac8cbd65071396bb4d04040f76cde5bde/687474703a2f2f696d672e736869656c64732e696f2f3a6c6963656e73652d6d69742d626c75652e7376673f7374796c653d666c61742d737175617265" alt="License" data-canonical-src="http://img.shields.io/:license-mit-blue.svg?style=flat-square" style="max-width:100%;"></a></p>
 
-<ul>
-  <li><strong><a href="http://opensource.org/licenses/mit-license.php" rel="nofollow">MIT license</a></strong></li>
-</ul>  
+----
+### OS
+
+- windows
+- mac
+- linux
+- docker
+
+### Dependencies
+- [**gspread**](https://pypi.org/project/gspread/)
+### License
+  
+![MIT](https://camo.githubusercontent.com/107590fac8cbd65071396bb4d04040f76cde5bde/687474703a2f2f696d672e736869656c64732e696f2f3a6c6963656e73652d6d69742d626c75652e7376673f7374796c653d666c61742d737175617265)  
+[MIT](http://opensource.org/licenses/mit-license.ph)
